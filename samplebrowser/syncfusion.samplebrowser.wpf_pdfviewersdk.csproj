@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>syncfusion.samplebrowser.wpf.pdfsdk</AssemblyName>
+    <RootNamespace>syncfusion.samplebrowser.wpf</RootNamespace>	
+    <DefineConstants>TRACE;PDFViewerSDK</DefineConstants>
+  </PropertyGroup>
+  
+  <ItemGroup>    
+    <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
+    <ProjectReference Include="..\common\syncfusion.demoscommon.wpf_lib.csproj">
+      <Name>syncfusion.demoscommon.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pdfviewer\syncfusion.pdfviewerdemos.wpf_lib.csproj">
+      <Name>syncfusion.pdfviewerdemos.wpf_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\showcase\succinctly series\syncfusion.succinctlyseries.wpf_lib.csproj">
+      <Name>syncfusion.succinctlyseries.wpf_lib$(TargetFramework)</Name>
+    </ProjectReference>
+    <None Remove="Properties\Settings.settings" />
+    <None Include="Properties\Settings.settings" />
+    <None Remove="App.config" />
+    <None Include="App.config" />
+    <None Remove="wpf-splash-screen.png" />
+    <None Remove="PDFViewerSDK-splash-screen.png" />
+    <Resource Include="PDFViewerSDK-splash-screen.png" />
+    <Resource Include="wpf-splash-screen.png" />
+    <None Remove="App.ico" />
+    <Resource Include="App.ico" />
+    <Compile Remove="AutomationMail.cs" />
+    <Reference Include="Syncfusion.Compression.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Compression.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.PdfToImageConverter.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.PdfToImageConverter.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Pdf.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.PdfViewer.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.PdfViewer.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\$(TargetFramework)\Syncfusion.Shared.WPF.dll</HintPath>
+    </Reference>
+    <PackageReference Include="MdXaml" Version="1.27.0" />
+    <PackageReference Include="Azure.AI.OpenAI">
+      <Version>2.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI">
+      <Version>9.0.1-preview.1.24570.5</Version>
+    </PackageReference>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="..\common\demos.common.props">
+  </Import>
+  <Import Project="..\targets\Pdfviewersdk.targets" />
+</Project>
