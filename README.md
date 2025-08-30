@@ -6,7 +6,6 @@ This section guides you to use the Syncfusion PDF Viewer SDK WPF demos in your a
 
 * [Requirements to run the demo](#requirements-to-run-the-demo)
 * [How to run the demos](#how-to-run-the-demos)
-* [Document SDK Libraries](#document-sdk-libraries)
 * [Documentation](#documentation)
 * [License](#license)
 * [Support and Feedback](#support-and-feedback)
