@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <AssemblyName>syncfusion.samplebrowser.wpf.pdfsdk</AssemblyName>
@@ -29,11 +29,6 @@
     <None Remove="App.ico" />
     <Resource Include="App.ico" />
     <Compile Remove="AutomationMail.cs" />
-    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.PdfToImageConverter.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Shared.WPF" Version="31.2.2." />
     <PackageReference Include="MdXaml" Version="1.27.0" />
     <PackageReference Include="Azure.AI.OpenAI">
       <Version>2.1.0</Version>
@@ -62,5 +57,15 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+    </Reference>
+    <Reference Include="Syncfusion.PdfToImageConverter.Base">
+    </Reference>
+    <Reference Include="Syncfusion.PdfViewer.WPF">
+    </Reference>
   </ItemGroup>
 </Project>
