@@ -81,14 +81,6 @@
     <Compile Remove="Views\PDFViewerPage.xaml.cs" />
     <Page Remove="Views\SuccinctlySeriesDemo.xaml" />
     <Compile Remove="Views\SuccinctlySeriesDemo.xaml.cs" />
-    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfBusyIndicator.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Shared.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Themes.Office2019Black.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Themes.Office2019Colorful.WPF" Version="31.2.2." />
   </ItemGroup>
   <Import Project="..\..\targets\MultiTargeting.targets" />
   <PropertyGroup Condition=" '$(TargetFramework)'=='net462' ">
@@ -100,6 +92,26 @@
   <PropertyGroup Condition=" '$(TargetFramework)'=='net9.0-windows' ">
     <SyncfusionAssemblyLocation>net9.0</SyncfusionAssemblyLocation>
   </PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Syncfusion.Compression.Base">
+		</Reference>
+		<Reference Include="Syncfusion.Pdf.Base">
+		</Reference>
+		<Reference Include="Syncfusion.PdfToImageConverter.Base">
+		</Reference>
+		<Reference Include="Syncfusion.PdfViewer.WPF">
+		</Reference>
+		<Reference Include="Syncfusion.SfBusyIndicator.WPF">
+		</Reference>
+		<Reference Include="Syncfusion.SfSkinManager.WPF">
+		</Reference>
+		<Reference Include="Syncfusion.Shared.WPF">
+		</Reference>
+		<Reference Include="Syncfusion.Themes.Office2019Black.WPF">
+		</Reference>
+		<Reference Include="Syncfusion.Themes.Office2019Colorful.WPF">
+		</Reference>
+	</ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <AssemblyName>syncfusion.pdfviewerdemos.wpfapplication</AssemblyName>
@@ -10,10 +10,6 @@
     <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Compression.Base" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="31.2.2." />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="31.2.2." />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFRAMEWORK' ">
     <Reference Include="PresentationFramework.Aero" />
@@ -174,6 +170,16 @@
     <Page Remove="Views\ThumbnailNavigation.xaml" />
     <Compile Remove="Views\ThumbnailNavigation.xaml.cs" />
     <Compile Remove="PdfViewerDemosViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.Compression.Base">
+    </Reference>
+    <Reference Include="Syncfusion.Pdf.Base">
+    </Reference>
+    <Reference Include="Syncfusion.PdfToImageConverter.Base">
+    </Reference>
+    <Reference Include="Syncfusion.PdfViewer.WPF">
+    </Reference>
   </ItemGroup>
   <Import Project="..\Common\demos.common.props">
   </Import>
