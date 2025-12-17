@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>syncfusion.succinctlyseries.wpf</name>
+    </assembly>
+    <members>
+        <member name="T:syncfusion.succinctlyseries.wpf.app.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:syncfusion.succinctlyseries.wpf.app.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.succinctlyseries.wpf.app.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:syncfusion.succinctlyseries.wpf.ViewModel.Books">
+            <summary>
+            Gets the collection of books
+            </summary>
+        </member>
+        <member name="M:syncfusion.succinctlyseries.wpf.ViewModel.#ctor">
+            <summary>
+            Data context
+            </summary>
+        </member>
+        <member name="T:syncfusion.succinctlyseries.wpf.FrontPage">
+            <summary>
+            An empty page that can be used on its own or navigated to within a Frame.
+            </summary>
+            <summary>
+            FrontPage
+            </summary>
+        </member>
+        <member name="M:syncfusion.succinctlyseries.wpf.FrontPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.succinctlyseries.wpf.PDFViewerPage">
+            <summary>
+            An empty page that can be used on its own or navigated to within a Frame.
+            </summary>
+            <summary>
+            PDFViewerPage
+            </summary>
+        </member>
+        <member name="M:syncfusion.succinctlyseries.wpf.PDFViewerPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:syncfusion.succinctlyseries.wpf.SuccinctlySeriesDemo">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            SuccinctlySeriesDemo
+            </summary>
+        </member>
+        <member name="M:syncfusion.succinctlyseries.wpf.SuccinctlySeriesDemo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
