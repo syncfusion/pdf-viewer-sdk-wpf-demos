@@ -22,6 +22,7 @@ namespace syncfusion.succinctlyseries.wpf_47
     {
         public App()
         {
+            Syncfusion.Telemetry.Telemetry.Disable();
            LicenseKeyLocator.FindandRegisterLicenseKey();
         }
         protected override void OnStartup(StartupEventArgs e)

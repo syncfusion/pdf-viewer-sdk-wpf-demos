@@ -98,6 +98,7 @@
 <Assembly>Syncfusion.Tools.WPF</Assembly>
 <Assembly>Syncfusion.XlsIO.Base</Assembly>
 <Assembly>Syncfusion.Markdown</Assembly>
+<Assembly>Syncfusion.Telemetry</Assembly>
 <Assembly>Syncfusion.Olap.Base</Assembly>
 <Assembly>Syncfusion.Olap.MVVM.WPF</Assembly>
 <Assembly>Syncfusion.OlapChart.WPF</Assembly>

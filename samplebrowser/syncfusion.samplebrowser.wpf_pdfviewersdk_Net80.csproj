@@ -31,11 +31,11 @@
     <None Remove="App.ico" />
     <Resource Include="App.ico" />
     <Compile Remove="AutomationMail.cs" />
-    <PackageReference Include="Syncfusion.Compression.Base" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.PdfToImageConverter.WPF" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.Shared.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.PdfToImageConverter.WPF" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.Shared.WPF" Version="34.2.2" />
     <PackageReference Include="MdXaml" Version="1.27.0" />
     <PackageReference Include="Azure.AI.OpenAI">
       <Version>2.1.0</Version>

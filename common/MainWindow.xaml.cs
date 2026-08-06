@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Syncfusion.SfSkinManager;
 using Syncfusion.Windows.Shared;
+using Syncfusion.Telemetry;
 
 namespace syncfusion.demoscommon.wpf
 {
@@ -56,6 +57,7 @@ namespace syncfusion.demoscommon.wpf
             }
 #endif
             SfSkinManager.ApplyThemeAsDefaultStyle = true;
+            Telemetry.Disable();
             InitializeComponent();
             txtTitleName.Inlines.Add(DemoBrowserViewModel.HeaderTitleText);
             this.DataContext = viewModel;

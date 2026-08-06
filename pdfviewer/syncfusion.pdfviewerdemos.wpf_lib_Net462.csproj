@@ -11,11 +11,11 @@
     <RuntimeHostConfigurationOption Include="Switch.System.Windows.Controls.DisableDynamicResourceOptimization" Value="true" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Syncfusion.Compression.Base" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.SfChat.WPF" Version="34.1.29" />
-    <PackageReference Include="Syncfusion.Tools.WPF" Version="34.1.29" />
+    <PackageReference Include="Syncfusion.Compression.Base" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.Pdf.Wpf" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.PdfViewer.WPF" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.SfChat.WPF" Version="34.2.2" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="34.2.2" />
     <PackageReference Include="Azure.AI.OpenAI">
       <Version>2.1.0</Version>
     </PackageReference>

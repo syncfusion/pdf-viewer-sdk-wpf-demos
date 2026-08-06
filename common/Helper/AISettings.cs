@@ -135,7 +135,9 @@ namespace syncfusion.demoscommon.wpf
             }
             settingsWindow.Owner = (productDemoWindow != null  && productDemoWindow.IsVisible)? productDemoWindow : DemosNavigationService.MainWindow;
             SfSkinManager.SetTheme(settingsWindow, new Theme("Windows11Light"));
+#if !TEST
             settingsWindow.ShowDialog();
+#endif
 
         }
 
